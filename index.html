@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Todo List</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    </head>
+    <body>
+        <div class="visibile">
+
+        </div>
+        <div class="alert">
+            <p>alert</p>
+            <h1></h1>
+        </div>
+        <div class="todo">
+            <header>
+                <div class="center">
+                    <div class="text">
+                        <h1><span id="today">Monday</span> Todo's</h1>
+                        <span id="date">May 11,2020</span>
+                    </div>
+                </div>
+            </header>
+            <div class="actions">
+                <form id="form" class="add">
+                    <input placeholder="Enter todo for the day" type="text" class="addTodo">
+                    <button class="add-btn"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                </form>
+            </div>
+            <ul class="todos"></ul>
+        </div>
+        <script src="./js/script.js" defer></script>
+    </body>
+</html>
